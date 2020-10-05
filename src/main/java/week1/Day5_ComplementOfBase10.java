@@ -14,6 +14,12 @@ public class Day5_ComplementOfBase10 {
         return res;
     }
 
+    public int bitwiseComplementEfficient(int N) {
+        int len = Integer.toBinaryString(N).length();
+        int mask = 1 << len;
+        return N ^ (mask - 1);
+    }
+
     public static void main(String[] args) {
         Day5_ComplementOfBase10 obj = new Day5_ComplementOfBase10();
         System.out.println(obj.bitwiseComplement(5));
