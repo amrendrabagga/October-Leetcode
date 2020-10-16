@@ -1,4 +1,4 @@
-package week2;
+package week3;
 
 public class Day1_RotateArray {
     private int gcd(int a, int b) {
