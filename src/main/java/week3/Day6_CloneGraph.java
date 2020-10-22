@@ -4,7 +4,7 @@ import utils.Node;
 
 import java.util.*;
 
-public class Day5_CloneGraph {
+public class Day6_CloneGraph {
     public Node cloneGraph(Node node) {
         if (node == null)
             return node;

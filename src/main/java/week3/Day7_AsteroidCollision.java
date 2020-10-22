@@ -2,7 +2,7 @@ package week3;
 
 import java.util.Stack;
 
-public class Day6_AsteroidCollision {
+public class Day7_AsteroidCollision {
     public int[] asteroidCollision(int[] asteroids) {
         if (asteroids.length <= 1)
             return asteroids;
